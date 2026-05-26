@@ -1,0 +1,11 @@
+====================================================================================================
+Checking topic: /vehicle/torques
+Torques(header=Header(stamp=Time(sec=1749046622, nanosec=832035883), frame_id=), powertrain_torque=-46.5, raw_engine_torque=1647.5, mean_effective_torque=0.0)
+
+====================================================================================================
+Checking topic: /vehicle/vehicle_state
+VehicleState(header=Header(stamp=Time(sec=1749046622, nanosec=838341014), frame_id=), start=True, doors=False, parking_brake=True, drive=True, steering_wheel_angle=-2.2846343517303467, flashing_lights=FlashingLights(type=0))
+
+====================================================================================================
+Checking topic: /vehicle/kinematics
+Kinematics(header=Header(stamp=Time(sec=1749046622, nanosec=839067737), frame_id=), longitudinal_accel=-0.15000000596046448, lateral_accel=0.156906396150589, yaw_rate=-0.001745329238474369, longitudinal_speed=0.0)

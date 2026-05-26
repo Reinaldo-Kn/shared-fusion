@@ -1,0 +1,87 @@
+----------------------------------------HEADERS--------------------------------------   
+time: float
+timestamp: float
+topic: string
+header/frame_id: string
+data/length: float
+data: string
+format: string
+header/stamp/nanosec: int
+header/stamp/sec: int
+fields/length: float
+fields: string
+height: float
+is_bigendian: bool
+is_dense: bool
+point_step: float
+row_step: float
+width: float
+imu_data_count: float
+lateral_acc: float
+longitudinal_acc: float
+nov_header/gps_week_milliseconds: float
+nov_header/gps_week_number: float
+nov_header/idle_time: float
+nov_header/message_id: float
+nov_header/message_name: string
+nov_header/message_type: float
+nov_header/receiver_status: float
+nov_header/sequence_number: float
+nov_header/time_status: float
+pitch_rate: float
+reserved1: float
+reserved2: float
+roll_rate: float
+vertical_acc: float
+yaw_rate: float
+azimuth: float
+azimuth_stdev: float
+east_velocity: float
+east_velocity_stdev: float
+ext_sol_status/status: float
+height_stdev: float
+ins_status/status: float
+latitude: float
+latitude_stdev: float
+longitude: float
+longitude_stdev: float
+north_velocity: float
+north_velocity_stdev: float
+pitch: float
+pitch_stdev: float
+pos_type/type: float
+roll: float
+roll_stdev: float
+time_since_update: float
+undulation: float
+up_velocity: float
+up_velocity_stdev: float
+mean_effective_torque: float
+powertrain_torque: float
+raw_engine_torque: float
+doors: bool
+drive: bool
+flashing_lights/type: float
+parking_brake: bool
+start: bool
+steering_wheel_angle: float
+lateral_accel: float
+longitudinal_accel: float
+longitudinal_speed: float
+front_left: float
+front_right: float
+rear_left: float
+rear_right: float
+---------------------------------------TOPICS---------------------------------------
+/back_grey/image_raw/compressed
+/front_grey/image_raw/compressed
+/left_grey/image_raw/compressed
+/novatel/oem7/corrimu
+/novatel/oem7/inspvax
+/points
+/right_grey/image_raw/compressed
+/vehicle/kinematics
+/vehicle/torques
+/vehicle/vehicle_state
+/vehicle/wheel_speeds
+/vehicle/wheel_tops

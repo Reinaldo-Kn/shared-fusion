@@ -1,0 +1,27 @@
+*.mcap
+*.db3
+*.sqlite
+*.sqlite3
+*.csv
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Dependencies / builds
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment variables
+*.env
+local.config.toml
+*.venv
