@@ -33,7 +33,6 @@ human_control_node:
     torque_min: -1000.0
     torque_max: 30.0
 
-    block_positive_torque_without_kinematics: true
     block_positive_torque_with_parking_brake: true
 
     log_every_n_callbacks: 5
