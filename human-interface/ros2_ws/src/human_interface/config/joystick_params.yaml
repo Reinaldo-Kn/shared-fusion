@@ -1,0 +1,39 @@
+human_control_node:
+  ros__parameters:
+    dt: 0.05
+
+    axis_lat: 0
+    axis_long: 3
+
+    joy_topic: "/joy"
+    kinematics_topic: "/vehicle/kinematics"
+    vehicle_state_topic: "/vehicle/vehicle_state"
+
+    steering_topic: "/steering_angle_setpoint"
+    torque_topic: "/torque_setpoint"
+
+    max_human_speed: 6.0
+
+    kp: 51.385331
+    ki: 9.224695
+
+    coast_threshold: 0.02
+
+    steering_gain: -6.283185307179586
+    steering_rate_rising: 1.5
+    steering_rate_falling: -1.5
+
+    speed_rate_rising: 1.5
+    speed_rate_falling: -3.0
+
+    brake_gain: -400.0
+    brake_rate_rising: 800.0
+    brake_rate_falling: -800.0
+
+    torque_min: -1000.0
+    torque_max: 30.0
+
+    block_positive_torque_without_kinematics: true
+    block_positive_torque_with_parking_brake: true
+
+    log_every_n_callbacks: 5

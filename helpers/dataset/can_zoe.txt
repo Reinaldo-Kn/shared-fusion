@@ -1,0 +1,81 @@
+========================================
+can_zoe_interfaces/msg/FlashingLights
+========================================
+uint8 TYPE_OFF = 0
+uint8 TYPE_LEFT = 1
+uint8 TYPE_RIGHT = 2
+uint8 TYPE_WARNING = 3
+uint8 TYPE_UNAVAILABLE = 7
+uint8 type
+
+========================================
+can_zoe_interfaces/msg/Kinematics
+========================================
+std_msgs/Header header
+        builtin_interfaces/Time stamp
+                int32 sec
+                uint32 nanosec
+        string frame_id
+float32 longitudinal_accel
+float32 lateral_accel
+float32 yaw_rate
+float32 longitudinal_speed
+
+========================================
+can_zoe_interfaces/msg/Torques
+========================================
+std_msgs/Header header
+        builtin_interfaces/Time stamp
+                int32 sec
+                uint32 nanosec
+        string frame_id
+float32 powertrain_torque
+float32 raw_engine_torque
+float32 mean_effective_torque
+
+========================================
+can_zoe_interfaces/msg/VehicleState
+========================================
+std_msgs/Header header
+        builtin_interfaces/Time stamp
+                int32 sec
+                uint32 nanosec
+        string frame_id
+bool start
+bool doors
+bool parking_brake
+bool drive
+float32 steering_wheel_angle
+FlashingLights flashing_lights
+        uint8 TYPE_OFF = 0
+        uint8 TYPE_LEFT = 1
+        uint8 TYPE_RIGHT = 2
+        uint8 TYPE_WARNING = 3
+        uint8 TYPE_UNAVAILABLE = 7
+        uint8 type
+
+========================================
+can_zoe_interfaces/msg/WheelSpeeds
+========================================
+std_msgs/Header header
+        builtin_interfaces/Time stamp
+                int32 sec
+                uint32 nanosec
+        string frame_id
+float32 front_left
+float32 front_right
+float32 rear_left
+float32 rear_right
+
+========================================
+can_zoe_interfaces/msg/WheelTops
+========================================
+std_msgs/Header header
+        builtin_interfaces/Time stamp
+                int32 sec
+                uint32 nanosec
+        string frame_id
+uint32 front_left
+uint32 front_right
+uint32 rear_left
+uint32 rear_right

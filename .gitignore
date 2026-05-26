@@ -25,3 +25,10 @@ build/
 *.env
 local.config.toml
 *.venv
+
+# ROS2 build files and zoe drivers
+build/
+install/
+log/
+can_zoe/
+can_interface/
